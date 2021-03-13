@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('./TTNorms/stylesheet.css');
+
+html body {
+  font-family: 'TT Norms', 'Poppins';
+  background: rgba(246,150,33,0.05);
+}
+
+.box {
+  width: 1051px;
+  height: 728px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 2px 50px rgba(210, 166, 96, 0.15);
+  backdrop-filter: blur(5.43656px);
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 148px;
+}
+
+.header {
+  margin: auto;
+  margin-top: 90px;
+}
+
+.headerText {
+
+font-family: 'TT Norms';
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 1.2px;
+
+color: #4D4F5B;
+}
+
+.tables {
+  margin: auto;
+  margin-top: 70px;
+  width: 80%;
+}
+
+.head {
+  padding: 20px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+th {
+  font-size: 18px;
+  color: #4D4F5B;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+td {
+  font-size: 14px;
+  color: #4D4F5B;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  width: 306px;
+  height: 44px;
+  color: #FFFFFF;
+
+  background: #F69621;
+  box-shadow: 0px 10px 20px rgba(246, 150, 33, 0.21);
+
+}
+
+button:hover {
+  background: #df861a;
+}
+
+.subText {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #4D4F5B;
+}
+
+input {
+  width: 306px;
+  height: 44px;
+  border: 1px solid #F69621;
+  box-sizing: border-box; 
+  border-radius: 8px;
+  
+}
+
+input:focus {
+  outline: none;
+}
